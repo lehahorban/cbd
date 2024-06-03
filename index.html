@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapp">
+          <a href="#" class="logo">
+            <svg>
+              <use href="images/sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link nav-link-tel" href="tel:+380975000411"
+                  >+380 97 500 04 11
+                  <svg width="14" height="14">
+                    <use href="images/sprite.svg#icon-arrow"></use></svg
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><svg width="19" height="19">
+                    <use href="images/sprite.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><svg width="9" height="17">
+                    <use href="images/sprite.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-wrapp">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="hero-title">Сайт <span>в розробці</span></h1>
+              <ul class="hero-list">
+                <li class="hero-item">
+                  <p class="hero-item-num">01.</p>
+                  <p class="hero-item-text">ПРОЕКТУВАННЯ</p>
+                </li>
+                <li class="hero-item">
+                  <p class="hero-item-num">02.</p>
+                  <p class="hero-item-text">БУДІВНИЦТВО & РЕМОНТ</p>
+                </li>
+                <li class="hero-item">
+                  <p class="hero-item-num">03.</p>
+                  <p class="hero-item-text">ПІДГОТОВКА ДОКУМЕНТАЦІЇ</p>
+                </li>
+                <li class="hero-item">
+                  <p class="hero-item-num">04.</p>
+                  <p class="hero-item-text">СУПРОВІД & ПРОДАЖ</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <picture>
+            <source srcset="images/hero-bg-sm.png" media="(max-width: 480px)" />
+            <img class="hero-img" src="images/hero-bg.png" alt="building" />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
