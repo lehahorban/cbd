@@ -60,6 +60,7 @@ main {
 }
 
 .nav-list {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -75,7 +76,7 @@ main {
   align-items: center;
 }
 
-.nav-link-tel svg {
+.nav-link-btn svg {
   margin-left: 9px;
 }
 
@@ -85,13 +86,20 @@ main {
 .nav-item:not(:last-child) {
   border-right: 1px solid var(--fore-allways---white, #fff);
 }
+
+.popap {
+  background-color: #000000;
+  display: none;
+  position: absolute;
+  top: 19px;
+  left: 0;
+}
 .hero {
   padding-top: clamp(1rem, 0.304rem + 3.48vw, 3.438rem);
 }
 .hero-wrapp {
   position: relative;
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 .hero-content {
   position: relative;
