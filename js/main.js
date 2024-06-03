@@ -4,8 +4,8 @@ function popapMenu() {
 
   menu.style.display = "none";
   btn.addEventListener("click", () => {
-    if (menu.style.display !== "block") {
-      menu.style.display = "block";
+    if (menu.style.display !== "flex") {
+      menu.style.display = "flex";
     } else {
       menu.style.display = "none";
     }

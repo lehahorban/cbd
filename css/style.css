@@ -90,9 +90,12 @@ main {
 .popap {
   background-color: #000000;
   display: none;
+  flex-direction: column;
+  gap: 7px;
   position: absolute;
-  top: 19px;
+  top: 26px;
   left: 0;
+  z-index: 10;
 }
 .hero {
   padding-top: clamp(1rem, 0.304rem + 3.48vw, 3.438rem);
